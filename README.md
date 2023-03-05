@@ -62,7 +62,7 @@ else if x == 3
 endif
 ```
 
-## `async/await`
+<h2>`async/await`</h2>
 
 Instead of always consuming `Promise` with the `.then()` method, we can use `async / await` — in a more comfortable fashion. It’s surprisingly easy to understand and use.
 
