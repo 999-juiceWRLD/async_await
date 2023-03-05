@@ -1,8 +1,8 @@
-# Asynchronous JavaScript
+<h1>Asynchronous JavaScript</h1>
 
 Using too many callback functions could make the code unreadable and pretty confusing. In modern JavaScript, there are tools to deal with asynchronous code. These are called `Promise` and `async/await`.
 
-## Promises
+<h2>Promises</h2>
 
 JavaScript `Promise` is some sort of an assurance that something will be achieved — either done or declined. `Promise` helps manage asynchronous activites.
 
@@ -62,7 +62,7 @@ else if x == 3
 endif
 ```
 
-## `async/await`
+<h2>`async/await`</h2>
 
 Instead of always consuming `Promise` with the `.then()` method, we can use `async / await` — in a more comfortable fashion. It’s surprisingly easy to understand and use.
 
@@ -74,7 +74,7 @@ This `async` function automatically returns a `Promise`. What's more important i
 
 The power of async functions really starts to shine when there are multiple async operations that return promises and which depend on each other.
 
-### `async/await` code examples
+<h3>`async/await` code examples</h3>
 
 1. 
 
