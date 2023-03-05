@@ -62,7 +62,7 @@ else if x == 3
 endif
 ```
 
-<h2>`async/await`</h2>
+## `async/await`
 
 Instead of always consuming `Promise` with the `.then()` method, we can use `async / await` — in a more comfortable fashion. It’s surprisingly easy to understand and use.
 
@@ -74,7 +74,7 @@ This `async` function automatically returns a `Promise`. What's more important i
 
 The power of async functions really starts to shine when there are multiple async operations that return promises and which depend on each other.
 
-<h3>`async/await` code examples</h3>
+### `async/await` code examples
 
 1. 
 
